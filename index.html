@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Quote Container -->
+    <div class="quote_container" id="quote_container">
+      <!-- Quote -->
+      <div class="quote_text">
+        <i class="fas fa-quote-left"></i>
+        <span id="quote"></span>
+      </div>
+      <!-- Author -->
+      <div class="quote_author">
+        <span id="author"></span>
+      </div>
+      <!-- Buttons -->
+      <div class="button_container">
+        <button class="twitter_button" id="twitter" title="Tweet this!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button id="new_quote">New Quote</button>
+      </div>
+    </div>
+    <!-- loader -->
+    <div class="loader" id="loader"></div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
